@@ -1,0 +1,126 @@
+=== getblockchaininfo ===
+{
+  "chain": "regtest",
+  "blocks": 0,
+  "headers": 0,
+  "bestblockhash": "0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206",
+  "bits": "207fffff",
+  "target": "7fffff0000000000000000000000000000000000000000000000000000000000",
+  "difficulty": 4.656542373906925e-10,
+  "time": 1296688602,
+  "mediantime": 1296688602,
+  "verificationprogress": 2.100329157494608e-06,
+  "initialblockdownload": true,
+  "chainwork": "0000000000000000000000000000000000000000000000000000000000000002",
+  "size_on_disk": 293,
+  "pruned": false,
+  "warnings": [
+    "This is a pre-release test build - use at your own risk - do not use for mining or merchant applications"
+  ]
+}
+=== getnetworkinfo ===
+{
+  "version": 309900,
+  "subversion": "/Satoshi:30.99.0/",
+  "protocolversion": 70016,
+  "localservices": "0000000000000c09",
+  "localservicesnames": [
+    "NETWORK",
+    "WITNESS",
+    "NETWORK_LIMITED",
+    "P2P_V2"
+  ],
+  "localrelay": true,
+  "timeoffset": 0,
+  "networkactive": true,
+  "connections": 0,
+  "connections_in": 0,
+  "connections_out": 0,
+  "networks": [
+    {
+      "name": "ipv4",
+      "limited": false,
+      "reachable": true,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "ipv6",
+      "limited": false,
+      "reachable": true,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "onion",
+      "limited": true,
+      "reachable": false,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "i2p",
+      "limited": true,
+      "reachable": false,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    },
+    {
+      "name": "cjdns",
+      "limited": true,
+      "reachable": false,
+      "proxy": "",
+      "proxy_randomize_credentials": false
+    }
+  ],
+  "relayfee": 0.00000100,
+  "incrementalfee": 0.00000100,
+  "localaddresses": [
+  ],
+  "warnings": [
+    "This is a pre-release test build - use at your own risk - do not use for mining or merchant applications"
+  ]
+}
+=== getmininginfo ===
+{
+  "blocks": 0,
+  "bits": "207fffff",
+  "difficulty": 4.656542373906925e-10,
+  "target": "7fffff0000000000000000000000000000000000000000000000000000000000",
+  "networkhashps": 0,
+  "pooledtx": 0,
+  "blockmintxfee": 0.00000001,
+  "chain": "regtest",
+  "next": {
+    "height": 1,
+    "bits": "207fffff",
+    "difficulty": 4.656542373906925e-10,
+    "target": "7fffff0000000000000000000000000000000000000000000000000000000000"
+  },
+  "warnings": [
+    "This is a pre-release test build - use at your own risk - do not use for mining or merchant applications"
+  ]
+}
+=== getmempoolinfo ===
+{
+  "loaded": true,
+  "size": 0,
+  "bytes": 0,
+  "usage": 0,
+  "total_fee": 0.00000000,
+  "maxmempool": 300000000,
+  "mempoolminfee": 0.00000100,
+  "minrelaytxfee": 0.00000100,
+  "incrementalrelayfee": 0.00000100,
+  "unbroadcastcount": 0,
+  "fullrbf": true,
+  "permitbaremultisig": true,
+  "maxdatacarriersize": 100000,
+  "limitclustercount": 64,
+  "limitclustersize": 101000,
+  "optimal": true
+}
+=== uptime ===
+82
+=== getblockcount ===
+0
